@@ -1,8 +1,10 @@
-Chapter 11
+Chapter 11: Functions
 basic function
 saving to module
 docstrings
 garbage filters
 positional v named arguments
 lambdas
-organizing a project with python functions: Chapter 12
+
+Chapter 12: Software Design
+organizing a project with python functions
