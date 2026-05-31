@@ -1,5 +1,0 @@
-Chapter 9
-notebooks
-pint
-numpy
-pandas
