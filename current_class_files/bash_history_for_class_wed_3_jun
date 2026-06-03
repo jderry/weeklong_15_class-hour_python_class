@@ -1,0 +1,52 @@
+623  20260603 12:59:57 man sed
+  624  20260603 13:02:36 ls
+  625  20260603 13:02:44 cd weeklong_15_class-hour_python_class/
+  626  20260603 13:03:48 ls -a
+  627  20260603 13:05:37 git pull
+  628  20260603 13:08:00 cd current_class_files/
+  629  20260603 13:08:12 cat isNucStrClean.py
+  630  20260603 13:09:34 ls
+  631  20260603 13:09:44 cat revComp.py
+  632  20260603 13:13:24 ls
+  633  20260603 13:15:24 cat isNucStrClean.py euclid_gcd.py percentGCcontent.py revComp.py > myModule.py
+  634  20260603 13:17:09 TEMP=$PS1
+  635  20260603 13:17:37 PS1='> '
+  636  20260603 13:18:06 vim myModule.py
+  637  20260603 13:25:22 vim myModule.py
+  638  20260603 13:27:52 ipython
+  639  20260603 13:33:11 PS1=$TEMP
+  640  20260603 13:35:04 cd
+  641  20260603 13:35:11 clear
+  642  20260603 13:36:22 # linear algebra, 2-dim matrix, row vectors, column vectors
+  643  20260603 13:36:47 # row vectors are records, column vectors are dimensions
+  644  20260603 13:41:31 # your copy is an exemplar. most datasets lack provenance.
+  645  20260603 13:42:06 # it is generally best practice to set the provenance asread-only
+  646  20260603 13:42:33 cd weeklong_15_class-hour_python_class/dataset/
+  647  20260603 13:42:36 ls
+  648  20260603 13:43:05 cd finding_interval_overlaps/
+  649  20260603 13:43:06 ls
+  650  20260603 13:43:34 ls -l
+  651  20260603 13:47:11 chmod 440 *.bed
+  652  20260603 13:47:17 ls -l
+  653  20260603 13:50:47 ls -h
+  654  20260603 13:50:53 ls -lh
+  655  20260603 13:51:24 head exon.bed
+  656  20260603 13:52:59 head test.sort.bed
+  657  20260603 13:53:54 cd
+  658  20260603 14:20:01 cp -a weeklong_15_class-hour_python_class/dataset/finding_interval_overlaps/ ~
+  659  20260603 14:20:24 ls -tr
+  660  20260603 14:32:09 cat -vet finding_interval_overlaps/exon.bed
+  661  20260603 14:32:24 cat -vet finding_interval_overlaps/exon.bed | head
+  662  20260603 14:57:21 cat finding_interval_overlaps/exon.bed | head
+  663  20260603 14:58:17 ls -lh finding_interval_overlaps/exon.bed
+  664  20260603 14:59:07 wc finding_interval_overlaps/exon.bed
+  665  20260603 15:00:28 wc -l finding_interval_overlaps/exon.bed
+  666  20260603 15:00:59 factor 1302708
+  667  20260603 15:01:35 factor 217118
+  668  20260603 15:39:38 top
+  669  20260603 15:41:53 ls -tr
+  670  20260603 15:42:00 wc overlaps
+  671  20260603 15:42:13 head overlaps
+  672  20260603 15:44:57 ls -tr
+  673  20260603 15:45:14 wc overlaps
+  674  20260603 16:11:50 history
