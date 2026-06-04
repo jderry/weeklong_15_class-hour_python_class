@@ -1,0 +1,25 @@
+675  20260604 12:12:53 ls
+  676  20260604 12:12:56 cd weeklong_15_class-hour_python_class/
+  677  20260604 12:12:59 git pull
+  678  20260604 12:13:14 ls dataset/
+  679  20260604 12:13:36 ls
+  680  20260604 12:13:44 ls day_4
+  681  20260604 12:13:49 ls day_4_working_with_datasets_I/
+  682  20260604 12:57:18 ls
+  683  20260604 14:00:27 cp -a weeklong_15_class-hour_python_class/day_4_working_with_datasets_I/ ~
+  684  20260604 14:00:31 ls
+  685  20260604 14:00:47 cd weeklong_15_class-hour_python_class/dataset/
+  686  20260604 14:00:48 ls
+  687  20260604 14:03:36 ls -lh hygdata_v3.csv
+  688  20260604 14:03:58 head hygdata_v3.csv
+  689  20260604 14:24:57 wc -l hygdata_v3.csv
+  690  20260604 14:33:46 head -1 hygdata_v3.csv
+  691  20260604 15:22:51 cd
+  692  20260604 15:22:54 ls
+  693  20260604 15:23:10 mkdir pickle
+  694  20260604 15:23:54 ls pickle
+  695  20260604 15:24:15 head pickle/astroTable_df.bin
+  696  20260604 15:25:09 ls -lh pickle/astroTable_df.bin
+  697  20260604 15:33:28 ls
+  698  20260604 16:13:45 history
+  699  20260604 16:15:11 history | tail -25
