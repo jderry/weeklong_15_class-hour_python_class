@@ -1,0 +1,54 @@
+700  20260604 16:15:53 history | tail -25 > 4-jun-2026.txt
+  701  20260605 12:50:15 ls
+  702  20260605 13:07:56 ls weeklong_15_class-hour_python_class/dataset/
+  703  20260605 13:08:14 ls
+  704  20260605 13:08:25 ls dataset/
+  705  20260605 13:09:43 unzip weeklong_15_class-hour_python_class/dataset/All-Unigene.fa.zip -d ~/dataset/
+  706  20260605 13:09:53 ls dataset/
+  707  20260605 13:10:10 head dataset/All-Unigene.fa
+  708  20260605 13:12:37 ls weeklong_15_class-hour_python_class/dataset/
+  709  20260605 13:13:32 cp ~/weeklong_15_class-hour_python_class/dataset/reformatted_Unigene1000.fa ~/dataset/
+  710  20260605 13:13:46 head dataset/reformatted_Unigene1000.fa
+  711  20260605 13:14:55 head dataset/reformatted_Unigene1000.fa | cat -vet
+  712  20260605 13:16:40 shuf -n 10 ~/dataset/reformatted_Unigene1000.fa
+  713  20260605 13:17:13 shuf -n 10 ~/dataset/reformatted_Unigene1000.fa > sampleset.fa
+  714  20260605 13:17:16 ls -tr
+  715  20260605 13:20:02 cp -a weeklong_15_class-hour_python_class/day_5_working_with_datasets_II/ ~
+  716  20260605 14:18:20 ls -l weeklong_15_class-hour_python_class/dataset/genes_ucsc.chr12.mod.gtf
+  717  20260605 14:18:31 ls -hl weeklong_15_class-hour_python_class/dataset/genes_ucsc.chr12.mod.gtf
+  718  20260605 14:18:51 head weeklong_15_class-hour_python_class/dataset/genes_ucsc.chr12.mod.gtf
+  719  20260605 14:49:24 ls
+  720  20260605 15:26:35 top
+  721  20260605 15:49:43 cd weeklong_15_class-hour_python_class/
+  722  20260605 15:49:47 git pull
+  723  20260605 15:50:58 cp ~/weeklong_15_class-hour_python_class/dataset/reformatted_Unigene.fa.zip -d ~/dataset/
+  724  20260605 15:51:14 cd
+  725  20260605 15:51:53 unzip ~/dataset/reformatted_Unigene.fa.zip -d ~/dataset/
+  726  20260605 15:52:32 head ~/dataset/reformatted_Unigene.fa
+  727  20260605 15:52:45 wc ~/dataset/reformatted_Unigene.fa
+  728  20260605 16:00:52 mkdir download
+  729  20260605 16:01:24 ls
+  730  20260605 16:01:51 mv weeklong_15_class-hour_python_class/ download/
+  731  20260605 16:02:11 mv *.ipynb download/
+  732  20260605 16:02:13 ls
+  733  20260605 16:02:44 mv day_* download/
+  734  20260605 16:02:48 ls
+  735  20260605 16:03:02 ls dataset/ download/
+  736  20260605 16:03:18 mv dataset/ download/
+  737  20260605 16:03:23 ls
+  738  20260605 16:03:36 mv finding_interval_overlaps/ download/
+  739  20260605 16:03:47 mv notebook/ download/
+  740  20260605 16:03:56 mv overlaps download/
+  741  20260605 16:04:04 vm pickle/ download/
+  742  20260605 16:04:18 mv pickle/ download/
+  743  20260605 16:04:27 mv sampleset.fa download/
+  744  20260605 16:04:29 ls
+  745  20260605 16:07:20 zip -r download.zip download/
+  746  20260605 16:08:21 ls -lh
+  747  20260605 16:12:51 history | tail -25
+  748  20260605 16:13:06 history | tail -10
+  749  20260605 16:13:10 history | tail -100
+  750  20260605 16:13:43 history | tail -50
+  751  20260605 16:14:14 clear
+  752  20260605 16:14:16 history | tail -50
+  753  20260605 16:14:32 history | tail -55
